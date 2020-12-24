@@ -107,7 +107,7 @@ body {
     }
 
     #question{
-        font-size: 4rem;
+        font-size: 6rem;
         font-weight: normal;
     }
 
@@ -119,5 +119,13 @@ body {
         background: white;
         font-size: 2rem;
         min-width: 50rem;
+    }
+
+    .correct {
+        background: rgb(141, 209, 141);
+    }
+    
+    .incorrect{
+        background: rgb(204, 110, 110);
     }
 }
