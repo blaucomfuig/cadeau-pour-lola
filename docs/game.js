@@ -119,11 +119,11 @@ getNewQuestion = () => {
     if(score == 11) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end-win.html')
+        return window.location.assign('end-win.html')
     } else if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS && score !== 11){
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end-lose.html')
+        return window.location.assign('end-lose.html')
     }
 
     questionCounter++
