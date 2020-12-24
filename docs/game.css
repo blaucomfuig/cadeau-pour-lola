@@ -65,3 +65,55 @@ body {
     background: green;
     width: 0%;
 }
+
+@media screen and (max-width: 900px){
+    
+    .container{
+        max-width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    #game {
+        max-width: 100%;
+    }
+
+    .choice-container{
+        max-width: 100%;
+        font-size: 2rem;
+    }
+
+    .choice-text{
+        padding: 2rem;
+        max-width: 100%;
+        font-size: 3rem;
+    }
+
+    .choice-prefix {
+        font-size: 3rem;
+    }
+
+    .hud-prefix {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #question{
+        font-size: 4rem;
+        font-weight: normal;
+    }
+
+    .choice-container{
+        display: flex;
+        margin-bottom: 0.8rem;
+        width: 100%;
+        border-radius: 4px;
+        background: white;
+        font-size: 2rem;
+        min-width: 50rem;
+    }
+}
