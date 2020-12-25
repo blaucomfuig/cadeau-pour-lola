@@ -144,7 +144,7 @@ getNewQuestion = () => {
     acceptingAnswers = true
 
     ScrollReveal().reveal('#game', {
-        delay: 200,
+        delay: 1200,
         duration: 1200,
         easing: 'ease'
     })
