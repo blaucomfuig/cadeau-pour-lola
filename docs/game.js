@@ -142,6 +142,19 @@ getNewQuestion = () => {
     availableQuestions.splice(questionsIndex, 1)
 
     acceptingAnswers = true
+
+    ScrollReveal().reveal('.choice-container', {
+        delay: 200,
+        duration: 1200,
+        easing: 'ease-in-out',
+        cleanup: true
+    })
+    ScrollReveal().reveal('#question', {
+        delay: 200,
+        duration: 1200,
+        easing: 'ease-in-out',
+        cleanup: true
+    })
 }
 
 choices.forEach(choice => {

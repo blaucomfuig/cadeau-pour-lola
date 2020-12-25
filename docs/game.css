@@ -79,6 +79,10 @@ body {
         padding: 0;
     }
 
+    h1 {
+        font-size: 6rem;
+    }
+
     #game {
         width: 80%;
         
