@@ -17,7 +17,7 @@ html {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
     margin-bottom: 4rem;
 }
 
@@ -76,4 +76,16 @@ h1 {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
+}
+
+@media screen and (max-width: 900px){
+    h1{
+        font-size: 4rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+        padding: 1rem 0;
+        width: 12rem;
+    }
 }

@@ -44,11 +44,12 @@ body {
 
 .hud-prefix {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .hud-main-text {
     text-align: center;
+    font-size: 5rem;
 }
 
 #progressBar {
@@ -86,10 +87,6 @@ body {
         max-width: 100%;
     }
 
-    .choice-container{
-        max-width: 100%;
-        font-size: 1rem;
-    }
 
     .choice-text{
         padding: 2rem;
@@ -103,12 +100,7 @@ body {
 
     .hud-prefix {
         text-align: center;
-        font-size: 3rem;
-    }
-
-    #question{
-        font-size: 6rem;
-        font-weight: normal;
+        font-size: 10rem;
     }
 
     .choice-container{
@@ -119,6 +111,7 @@ body {
         background: white;
         font-size: 2rem;
         min-width: 50rem;
+        max-width: 100%;
     }
 
     .correct {

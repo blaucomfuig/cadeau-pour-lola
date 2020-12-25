@@ -16,12 +16,12 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: "comme s'appel le primer copain de la tête de mila ?",
+        question: "comme s'appele le premier copain de la tête de mila ?",
         choice1: 'Pilou',
         choice2: 'Monstre Bleu',
         choice3: 'Alim',
         choice4: 'Aloé',
-        answer: 1,
+        answer: 4,
     },
     {
         question: "Ton film preferé ?",
@@ -32,11 +32,11 @@ let questions = [
         answer: 2,
     },
     {
-        question: "Ton film preferé ?",
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '15',
+        question: "de quoi mila a le plus peur ?",
+        choice1: 'du vide',
+        choice2: 'du noir',
+        choice3: 'de mourir',
+        choice4: 'des animaux sauvages très grand ou ceux qui sont dans la mer aussi très grand',
         answer: 2,
     },
     {
@@ -127,7 +127,7 @@ getNewQuestion = () => {
     }
 
     questionCounter++
-    progressText.innerText = `question ${questionCounter} de ${MAX_QUESTIONS}`
+    progressText.innerText = `question ${questionCounter} sur ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)

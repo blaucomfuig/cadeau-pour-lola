@@ -1,0 +1,11 @@
+:root {
+    background-color: rgb(230, 209, 209);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    line-height: 4rem;
+    padding: 0 1rem;
+    text-align: center;
+}
