@@ -87,6 +87,7 @@ h1 {
 
     .btn {
         font-size: 2rem;
+        font-weight: lighter;
         padding: 1rem 0;
         width: 12rem;
     }
