@@ -91,6 +91,7 @@ body {
         padding: 2rem;
         max-width: 100%;
         font-size: 3rem;
+        font-weight: lighter;
     }
 
     .choice-prefix {
@@ -99,7 +100,8 @@ body {
 
     .hud-prefix {
         text-align: center;
-        font-size: 3rem;
+        font-size: 3.4rem;
+        font-weight: lighter;
     }
 
     .choice-container{

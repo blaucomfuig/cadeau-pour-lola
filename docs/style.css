@@ -17,8 +17,9 @@ html {
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 10rem;
     margin-bottom: 4rem;
+    font-weight: lighter;
 }
 
 .container{
