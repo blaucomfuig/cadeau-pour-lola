@@ -1,5 +1,5 @@
 :root {
-    background-color: rgb(207, 197, 197);
+    background-color: rgb(230, 215, 215);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap');
@@ -81,7 +81,7 @@ h1 {
 
 @media screen and (max-width: 900px){
     h1{
-        font-size: 7rem;
+        font-size: 6rem;
         font-weight: lighter;
     }
 

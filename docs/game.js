@@ -143,16 +143,22 @@ getNewQuestion = () => {
 
     acceptingAnswers = true
 
+    ScrollReveal().reveal('#game', {
+        delay: 200,
+        duration: 1200,
+        easing: 'ease'
+    })
+
     ScrollReveal().reveal('.choice-container', {
         delay: 200,
         duration: 1200,
-        easing: 'ease-in-out',
+        easing: 'ease',
         cleanup: true
     })
     ScrollReveal().reveal('#question', {
         delay: 200,
         duration: 1200,
-        easing: 'ease-in-out',
+        easing: 'ease',
         cleanup: true
     })
 }
