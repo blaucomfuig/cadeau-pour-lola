@@ -17,11 +17,11 @@ let availableQuestions = []
 let questions = [
     {
         question: "comment s'appelle le premier copain de la tête de mila ?",
-        choice1: 'Pilou',
-        choice2: 'Monstre Bleu',
+        choice1: 'Monstre Bleu',
+        choice2: 'Pilou',
         choice3: 'Alim',
         choice4: 'Aloé',
-        answer: 4,
+        answer: 1,
     },
     {
         question: "c'est quoi le film préferé de sophie?",
