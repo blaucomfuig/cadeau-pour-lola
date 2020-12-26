@@ -80,12 +80,12 @@ let questions = [
         answer: 1,
     },
     {
-        question: "Ton film preferé ?",
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '15',
-        answer: 2,
+        question: "c'est quoi l'animal préféré de jaja ?",
+        choice1: 'cygne',
+        choice2: 'phoque',
+        choice3: 'perroquet',
+        choice4: 'macaraux',
+        answer: 4,
     },
     {
         question: "c'est quoi le film préferé de félix ?",
