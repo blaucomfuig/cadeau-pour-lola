@@ -97,10 +97,10 @@ let questions = [
     },
     {
         question: "je suis de quel couleur en ce moment ?",
-        choice1: 'bleu',
+        choice1: 'bleu mediterranéen',
         choice2: 'taronge barcelonais',
         choice3: 'rouge rouge rouge !',
-        choice4: 'vert',
+        choice4: 'marron délice suprème',
         answer: 3,
     },
     {
@@ -109,6 +109,14 @@ let questions = [
         choice2: 'le pêcheur',
         choice3: 'le poisson',
         choice4: 'le berger',
+        answer: 2,
+    },
+    {
+        question: "c'était quoi le dernier rêve beau que babou a eu ?",
+        choice1: 'elle montait un cheval dans sa propre maison',
+        choice2: 'un oiseau rare et rose dans son polochon',
+        choice3: 'elle faisait pousser des coquelicots dans sa poche',
+        choice4: 'des hirondelles lui chantaient berceuses en espagnol',
         answer: 2,
     }
 ]
@@ -128,7 +136,7 @@ getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('end-win.html')
-    } else if(availableQuestions.length === 1 || questionCounter > MAX_QUESTIONS && score !== 11){
+    } else if(availableQuestions.length === 2 || questionCounter > MAX_QUESTIONS && score !== 11){
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('end-lose.html')
