@@ -55,7 +55,7 @@ body {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.4rem solid green;
+    border: 0.4rem solid rgb(78, 0, 0);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -63,7 +63,7 @@ body {
 
 #progressBarFull{
     height: 100%;
-    background: green;
+    background: rgb(78, 0, 0);
     width: 0%;
 }
 
